@@ -52,8 +52,8 @@ TRACKS_PER_PAGE = 50
 MAX_TRACKS = 5000
 
 # Spotify Configuration
-CLIENT_ID = "630c521d6a5d4a269db2aeadc3255f08"
-CLIENT_SECRET = "a388ba1022c84e9aad939ae6a96652b0"
+CLIENT_ID = "SET_ID_HERE"
+CLIENT_SECRET = "SET_SECRET_HERE"
 REDIRECT_URI = "https://dragon-surround-fly-revised.trycloudflare.com/callback"
 SCOPE = "user-library-read playlist-read-private playlist-read-collaborative"
 
@@ -3767,3 +3767,4 @@ if __name__ == "__main__":
     # Create and start the application
     app = NoirPlayer()
     app.start()
+

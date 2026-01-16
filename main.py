@@ -24,7 +24,7 @@ from mutagen.id3 import ID3, APIC, TIT2, TPE1, TALB, TCON
 
 CLIENT_ID = "630c521d6a5d4a269db2aeadc3255f08"
 CLIENT_SECRET = "a388ba1022c84e9aad939ae6a96652b0"
-REDIRECT_URI = "https://smaller-seen-str-detroit.trycloudflare.com/callback"
+REDIRECT_URI = "https://musicc-oyb7.onrender.com//callback"
 PORT = 5000
 DOWNLOAD_DIR = os.path.join(os.getcwd(), "music_library")
 STREAM_CACHE_FILE = os.path.join(os.getcwd(), "stream_cache.json")
